@@ -1,5 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;900&family=Roboto:wght@300;900&display=swap");
 html,
 body {
   margin: 0;
   padding: 0;
+  background-color: #d6cfcf;
+  font-family: "Encode Sans", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+}
+.avatar {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.user-info .header {
+  display: flex;
+  background-color: yellow;
+  justify-content: start;
+  padding: 30px;
+}
+.name {
+  font-weight: 900;
+}
+.location {
+  font-weight: 300;
+}
+.user-details {
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+.goghpost {
+  width: 100%;
+}
+.header {
+  display: flex;
+}
+.user-info .img {
+  width: 100%;
+  display: block;
+}
+.user-info .avatar {
+  width: 100px;
 }
