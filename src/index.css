@@ -11,6 +11,7 @@ header {
   justify-content: space-between;
   padding: 20px;
   background-color: black;
+  border-bottom: 1px solid #c6c6c6;
 }
 .avatar {
   border-radius: 50%;
