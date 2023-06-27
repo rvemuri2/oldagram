@@ -29,12 +29,13 @@ const posts = [
   },
 ];
 
-const container = document.querySelector(".card");
+const container = document.querySelector(".container");
 const postMethods = () => {
   posts.map((postData) => {
     const postElement = document.createElement("section");
     postElement.classList.add("user-info");
     postElement.innerHTML = `
+    <section class="card">
     <section class="header">
     <img src=${postData.avatar} class="avatar" />
     <div class="user-details">
@@ -58,6 +59,7 @@ const postMethods = () => {
   <section class="user-comment">
     <h2 class="username">${postData.username}</h2>
     <h2 class="actual-comment">${postData.comment}</h2>
+  </section>
   </section>
     `;
     container.appendChild(postElement);
