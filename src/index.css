@@ -9,14 +9,15 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 15px;
   background-color: black;
   border-bottom: 1px solid #c6c6c6;
 }
 .avatar {
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
+  /* reducing the avatr dimesnions */
 }
 .user-info {
   background-color: whitesmoke;
@@ -28,34 +29,40 @@ header {
 }
 .name {
   font-weight: 900;
+  margin-top: 0px;
 }
 .location {
   font-weight: 300;
 }
 .user-details {
   padding-left: 50px;
+  font-size: 15px;
 }
-.header {
+/* .header {
   display: flex;
-}
+} */
 .user-info .img {
+  min-width: 300px;
   width: 100%;
 }
 .user-info .avatar {
-  width: 100px;
+  /* width: 100px; */
+  width: 50px;
 }
 .icons {
   display: flex;
   width: 100%;
+  padding-left: 0px;
 }
 .heart,
 .comment,
 .dm {
   padding: 20px;
-  width: 50px;
+  width: 30px;
   margin-top: 20px;
   padding-right: 30px;
   padding-left: 30px;
+  cursor: pointer;
 }
 .heart:hover,
 .heart:active,
@@ -72,11 +79,13 @@ header {
 .count {
   margin-right: 10px;
 }
+
 .likes,
 .user-comment {
   display: flex;
-  margin-top: 10px;
-  padding-left: 40px;
+  margin-top: 0px;
+  padding-left: 30px;
+  font-size: 15px;
 }
 .actual-comment {
   font-weight: 300;
@@ -84,8 +93,13 @@ header {
 .card {
   padding: 2rem;
   transition: 0.4s ease-in;
-  margin-top: 70px;
+  margin-bottom: 70px;
 }
 .username {
   padding-right: 20px;
+}
+
+.username,
+.actual-comment {
+  margin-top: 20px;
 }
